@@ -1125,11 +1125,11 @@ def validate_and_truncate_physical_indices(toc_with_page_number, page_list_lengt
     for i, item in enumerate(toc_with_page_number):
         if item.get('physical_index') is not None:
             original_index = item['physical_index']
-            if original_index > max_allowed_page:
+            if int(original_index) > max_allowed_page:
                 item['physical_index'] = None
                 truncated_items.append({
                     'title': item.get('title', 'Unknown'),
-                    'original_index': original_index
+                    'original_index': int(original_index)
                 })
                 if logger:
                     logger.info(f"Removed physical_index for '{item.get('title', 'Unknown')}' (was {original_index}, too far beyond document)")

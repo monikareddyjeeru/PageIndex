@@ -1,0 +1,400 @@
+{
+  "doc_name": "Tender Doc for Testing.pdf",
+  "structure": [
+    {
+      "title": "Introduction",
+      "start_index": 1,
+      "end_index": 1,
+      "nodes": [
+        {
+          "title": "Background",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0001",
+          "summary": "This partial tender document outlines Bangalore Metro Rail Corporation Limited\u2019s invitation for sealed tenders to design, supply, install, test, and commission electrical systems at selected stations on the Phase\u202fII North\u2013South corridor. It includes background information, the scope of work (station lighting, power distribution, emergency backup, earthing and lightning protection), the project location in Bengaluru, and brief instructions to bidders, including bid submission details."
+        },
+        {
+          "title": "Scope of Tender",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0002",
+          "summary": "This partial tender document outlines Bangalore Metro Rail Corporation Limited\u2019s invitation for sealed tenders to design, supply, install, test, and commission electrical systems at selected stations in Phase\u202fII of the Namma Metro extension. It includes background information, the scope of work (station lighting, power distribution panels, emergency backup, earthing and lightning protection), the project location along the North\u2013South corridor in Bengaluru, and brief instructions to bidders regarding bid submission."
+        },
+        {
+          "title": "Project Location",
+          "start_index": 1,
+          "end_index": 1,
+          "node_id": "0003",
+          "summary": "This partial tender document outlines Bangalore Metro Rail Corporation Limited\u2019s invitation for sealed bids to design, supply, install, test, and commission electrical systems at selected stations on the Phase\u202fII North\u2013South corridor extension. It provides background on the project, defines the scope\u2014including station lighting, power distribution panels, emergency backup, and earthing/lightning protection\u2014and specifies the project location in Bengaluru, Karnataka. The document also includes bidder instructions and details on bid submission."
+        }
+      ],
+      "node_id": "0000",
+      "summary": "This excerpt is a tender invitation from Bangalore Metro Rail Corporation Limited (BMRCL) for electrical works on Phase\u202fII of the Namma Metro extension. It outlines the background of the project, the scope of work (station lighting, power distribution, emergency backup, earthing and lightning protection), the project location (selected stations on the North\u2013South corridor in Bengaluru), and provides initial instructions to bidders, including bid submission details."
+    },
+    {
+      "title": "Instructions to Bidders",
+      "start_index": 1,
+      "end_index": 5,
+      "nodes": [
+        {
+          "title": "Bid Submission",
+          "start_index": 5,
+          "end_index": 2,
+          "nodes": [
+            {
+              "title": "Mode of Submission",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0006",
+              "summary": "The partial document outlines the bidding process for a procurement tender, covering:\n\n- **Electronic submission** of bids via the official portal before the deadline.  \n- **Required documents**: company registration certificate, GST registration, financial statements for the past three years, and previous project completion certificates.  \n- **Bid security (Earnest Money Deposit)**: INR\u202f50,00,000, payable as a bank guarantee from a scheduled bank or a demand draft to BMRCL.  \n- **Tender fee**: a non\u2011refundable INR\u202f10,000, payable through the online payment gateway on the tender portal.  \n- **Eligibility criteria** for bidders (details not provided in the excerpt)."
+            },
+            {
+              "title": "Required Documents",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0007",
+              "summary": "The partial document outlines the bidding process for a procurement tender, covering: 1) electronic submission of bids via the official portal; 2) mandatory documents such as company registration, GST registration, financial statements, and past project certificates; 3) bid security requirements, specifying an Earnest Money Deposit of INR\u202f50,00,000 and acceptable forms (bank guarantee or demand draft); 4) a non\u2011refundable tender fee of INR\u202f10,000 payable through the portal\u2019s online gateway; and 5) a brief mention of eligibility criteria that follows."
+            }
+          ],
+          "node_id": "0005",
+          "summary": "No content provided."
+        },
+        {
+          "title": "Bid Security (Earnest Money Deposit)",
+          "start_index": 2,
+          "end_index": 2,
+          "nodes": [
+            {
+              "title": "EMD Amount",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0009",
+              "summary": "The partial document outlines the bidding process for a procurement tender. It specifies that bids must be submitted electronically via the official portal before the deadline. Required documents include the company registration certificate, GST registration, financial statements for the past three years, and previous project completion certificates. Bid security is required in the form of an Earnest Money Deposit (EMD) of INR\u202f50,00,000, which can be provided as a bank guarantee or a demand draft payable to BMRCL. A non\u2011refundable tender fee of INR\u202f10,000 must be paid through the online payment gateway on the tender portal. The document concludes by indicating that eligibility criteria will follow."
+            },
+            {
+              "title": "Acceptable Forms",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0010",
+              "summary": "The partial document outlines the bidding process for a procurement tender. It specifies that bids must be submitted electronically via the official portal before the deadline. Required documents include the company registration certificate, GST registration, financial statements for the past three years, and previous project completion certificates. Bid security is required in the form of an Earnest Money Deposit (EMD) of INR\u202f50,00,000, which can be provided as a bank guarantee or a demand draft payable to BMRCL. A non\u2011refundable tender fee of INR\u202f10,000 must be paid through the online payment gateway on the tender portal. The document concludes by indicating that eligibility criteria will be addressed in the next section."
+            }
+          ],
+          "node_id": "0008",
+          "summary": "The partial document outlines the bidding process for a procurement tender. It specifies that bids must be submitted electronically via the official portal before the deadline. It lists required supporting documents, including company registration, GST registration, financial statements for the past three years, and previous project completion certificates. The document details the bid security requirements, stating an Earnest Money Deposit (EMD) of INR\u202f50,00,000 is required, which can be provided as a bank guarantee or a demand draft payable to BMRCL. It also covers tender fees, requiring a non\u2011refundable fee of INR\u202f10,000 to be paid through the online payment gateway on the tender portal. Finally, it introduces the eligibility criteria section."
+        },
+        {
+          "title": "Tender Fees",
+          "start_index": 2,
+          "end_index": 2,
+          "nodes": [
+            {
+              "title": "Fee Amount",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0012",
+              "summary": "The partial document outlines the bidding process for a procurement tender, covering: 1) electronic submission of bids via the official portal; 2) mandatory documents such as company registration, GST registration, financial statements, and past project certificates; 3) bid security requirements, specifying an Earnest Money Deposit of INR\u202f50,00,000 and acceptable forms (bank guarantee or demand draft); 4) a non\u2011refundable tender fee of INR\u202f10,000 payable through the portal\u2019s online gateway; and 5) a brief mention of eligibility criteria that follows."
+            },
+            {
+              "title": "Payment Method",
+              "start_index": 2,
+              "end_index": 2,
+              "node_id": "0013",
+              "summary": "The partial document outlines the bidding process for a procurement tender, covering: 1) electronic submission of bids via the official portal; 2) mandatory documents such as company registration, GST registration, financial statements, and past project certificates; 3) bid security requirements, specifying an Earnest Money Deposit of INR\u202f50,00,000 and acceptable forms (bank guarantee or demand draft); 4) a non\u2011refundable tender fee of INR\u202f10,000 payable through the portal\u2019s online gateway; and 5) a brief mention of eligibility criteria that follows."
+            }
+          ],
+          "node_id": "0011",
+          "summary": "The partial document outlines the bidding process for a procurement tender. It specifies that bids must be submitted electronically via the official portal before the deadline. Required documents include the company registration certificate, GST registration, financial statements for the past three years, and previous project completion certificates. Bid security is required in the form of an Earnest Money Deposit (EMD) of INR\u202f50,00,000, which can be provided as a bank guarantee or a demand draft payable to BMRCL. A non\u2011refundable tender fee of INR\u202f10,000 must be paid through the online payment gateway on the tender portal. The document also begins to introduce eligibility criteria for bidders."
+        }
+      ],
+      "node_id": "0004",
+      "summary": "This partial tender document outlines Bangalore Metro Rail Corporation Limited\u2019s invitation for sealed bids to design, supply, install, test, and commission electrical systems at selected stations for Phase\u202fII of the Namma Metro extension. It details the project scope\u2014station lighting, power distribution panels, emergency backup, earthing, and lightning protection\u2014along the North\u2013South corridor. The document specifies bid submission requirements (electronic portal, required company, GST, financial statements, project certificates), bid security (INR\u202f50\u202flakh EMD), and a non\u2011refundable tender fee (INR\u202f10\u202f000). Eligibility criteria cover financial qualifications (minimum turnover of INR\u202f100\u202fcrore, positive net worth, audited financials) and technical qualifications (at least two similar projects of INR\u202f30\u202fcrore each, qualified engineers). It describes the work scope in detail (main distribution panels, cabling standards, LED platform lighting, emergency lighting, earthing, lightning arrestors). Payment terms include a 10\u202f% advance, milestone\u2011based interim payments, and final payment upon commissioning. The contract duration is 18\u202fmonths with defined milestones for installation (12\u202fmonths) and testing/commissioning (6\u202fmonths). Penalties for delays and liquidated damages are also referenced."
+    },
+    {
+      "title": "Eligibility Criteria",
+      "start_index": 2,
+      "end_index": 3,
+      "nodes": [
+        {
+          "title": "Financial Qualification",
+          "start_index": 3,
+          "end_index": 3,
+          "nodes": [
+            {
+              "title": "Minimum Turnover",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0016",
+              "summary": "The document outlines the eligibility criteria for bidders, covering both financial and technical qualifications. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and required financial documents (audited balance sheets, profit\u2011and\u2011loss statements, and auditor certification). Technically, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must possess qualified engineers in electrical engineering, power systems, and safety compliance. The document also introduces a section on the scope of work."
+            },
+            {
+              "title": "Net Worth",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0017",
+              "summary": "The document outlines the qualification criteria for bidders, divided into financial and technical requirements. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and the submission of audited financial statements and auditor certification. Technically, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must employ qualified engineers in electrical engineering, power systems, and safety compliance. The document concludes with a heading for the scope of work."
+            },
+            {
+              "title": "Financial Documents",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0018",
+              "summary": "The document outlines the qualification criteria for bidders, covering both financial and technical requirements. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and the submission of audited financial statements and auditor certification. Technically, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must employ qualified engineers in electrical engineering, power systems, and safety compliance. The document also introduces a section on the scope of work."
+            }
+          ],
+          "node_id": "0015",
+          "summary": "The document outlines the financial and technical qualification criteria for bidders, specifying a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and required financial documents (audited balance sheets, profit and loss statements, auditor certification). It also details technical qualifications, requiring at least two completed similar electrical infrastructure projects in metro rail or large infrastructure within the last seven years, each with a minimum contract value of INR\u202f30\u202fcrore, and the presence of qualified engineers in electrical engineering, power systems, and safety compliance, before moving on to the scope of work."
+        },
+        {
+          "title": "Technical Qualification",
+          "start_index": 3,
+          "end_index": 3,
+          "nodes": [
+            {
+              "title": "Relevant Experience",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0020",
+              "summary": "The document outlines the qualification criteria for bidders, divided into financial and technical requirements. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and the submission of audited financial statements and auditor certification. Technically, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must employ qualified engineers in electrical engineering, power systems, and safety compliance. The document concludes with a heading for the scope of work."
+            },
+            {
+              "title": "Project Value Requirement",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0021",
+              "summary": "The document outlines the qualification criteria for bidders, divided into financial and technical requirements. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and the submission of audited financial statements and auditor certification. Technically, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must employ qualified engineers in electrical engineering, power systems, and safety compliance. The document concludes with a heading for the scope of work."
+            },
+            {
+              "title": "Technical Staff",
+              "start_index": 3,
+              "end_index": 3,
+              "node_id": "0022",
+              "summary": "The document outlines the qualification criteria for bidders, divided into financial and technical requirements. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and the submission of audited financial statements and auditor certification. Technically, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must employ qualified engineers in electrical engineering, power systems, and safety compliance. The document concludes with a heading for the scope of work."
+            }
+          ],
+          "node_id": "0019",
+          "summary": "The partial document outlines the eligibility criteria for bidders, divided into financial and technical qualifications. It specifies a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and required financial documents (audited balance sheets, profit\u2011and\u2011loss statements, and auditor certification). For technical qualification, bidders must have completed at least two comparable electrical infrastructure projects in metro rail or large infrastructure within the past seven years, each with a contract value of at least INR\u202f30\u202fcrore, and must possess qualified engineers in electrical engineering, power systems, and safety compliance. The document concludes with a heading for the scope of work."
+        }
+      ],
+      "node_id": "0014",
+      "summary": "The document outlines the procurement process for a metro rail electrical infrastructure project, detailing electronic bid submission requirements, mandatory supporting documents (company registration, GST, financial statements, project certificates), and the Earnest Money Deposit (EMD) of INR\u202f50\u202fmillion with acceptable forms (bank guarantee or demand draft). It specifies a non\u2011refundable tender fee of INR\u202f10,000 payable via the online portal. Eligibility criteria include financial qualifications (minimum INR\u202f100\u202fcrore turnover over three years, positive net worth, audited financials) and technical qualifications (at least two similar projects of INR\u202f30\u202fcrore each in the past seven years, and qualified engineers in electrical, power systems, and safety compliance). The scope of work section is introduced but not detailed in the excerpt."
+    },
+    {
+      "title": "Scope of Work",
+      "start_index": 3,
+      "end_index": 4,
+      "nodes": [
+        {
+          "title": "Electrical Power Distribution",
+          "start_index": 4,
+          "end_index": 4,
+          "nodes": [
+            {
+              "title": "Main Distribution Panels",
+              "start_index": 4,
+              "end_index": 4,
+              "node_id": "0025",
+              "summary": "The document outlines key electrical and safety requirements for a station, including the installation of main low\u2011tension distribution panels, compliance of all cabling with Indian standards and metro safety regulations, LED platform lighting, automatic emergency lighting, a complete earthing system, and lightning arrestors. It also specifies payment terms, noting a 10\u202f% advance payment upon submission of a bank guarantee."
+            },
+            {
+              "title": "Cabling",
+              "start_index": 4,
+              "end_index": 4,
+              "node_id": "0026",
+              "summary": "The partial document outlines key electrical and safety requirements for a station project, covering the supply and installation of main low\u2011tension distribution panels, compliance of all cabling with Indian standards and metro safety regulations, and the installation of platform LED lighting and automatic emergency lighting. It also specifies the need for a comprehensive earthing system and lightning arrestors in line with safety standards. Finally, it includes payment terms, noting a 10% advance payment contingent on a bank guarantee."
+            }
+          ],
+          "node_id": "0024",
+          "summary": "The partial document outlines key electrical and safety requirements for a station project. It specifies that the contractor must supply and install main low\u2011tension distribution panels in designated electrical rooms, and that all cabling must meet Indian Standards and metro safety regulations. Station lighting provisions include LED fixtures along passenger platforms and automatic emergency lighting that activates during power failures. Earthing and lightning protection are addressed, requiring a complete earthing system and installation of lightning arrestors per safety standards. Finally, the document sets payment terms, allowing a 10% advance payment upon submission of a bank guarantee."
+        },
+        {
+          "title": "Station Lighting Systems",
+          "start_index": 4,
+          "end_index": 4,
+          "nodes": [
+            {
+              "title": "Platform Lighting LED lighting fixtures",
+              "start_index": 4,
+              "end_index": 4,
+              "node_id": "0028",
+              "summary": "The partial document outlines key electrical and safety requirements for a station project. It specifies that the contractor must supply and install main low\u2011tension distribution panels in designated electrical rooms, and that all cabling must meet Indian standards and metro safety regulations. Station lighting provisions include LED fixtures along passenger platforms and automatic emergency lighting that activates during power failures. Earthing and lightning protection are addressed, requiring a complete earthing system and installation of lightning arrestors per safety standards. Finally, the payment terms include a 10% advance payment contingent on a bank guarantee."
+            },
+            {
+              "title": "Emergency Lighting",
+              "start_index": 4,
+              "end_index": 4,
+              "node_id": "0029",
+              "summary": "The partial document outlines the electrical and safety requirements for a station, covering the installation of main low\u2011tension distribution panels, compliance of all cabling with Indian standards and metro safety regulations, and the specification of platform LED lighting and automatic emergency lighting. It also details the need for a complete earthing system and lightning arrestors in line with safety standards. Finally, it includes payment terms, specifically an advance payment of 10% of the contract value upon submission of a bank guarantee."
+            }
+          ],
+          "node_id": "0027",
+          "summary": "The document outlines the electrical and safety requirements for a station, covering the installation of main low\u2011tension distribution panels, compliance of all cabling with Indian standards and metro safety regulations, LED platform lighting, automatic emergency lighting, a complete earthing system, and lightning arrestors. It also specifies payment terms, including a 10\u202f% advance payment subject to a bank guarantee."
+        },
+        {
+          "title": "Earthing and Lightning Protection",
+          "start_index": 4,
+          "end_index": 4,
+          "nodes": [
+            {
+              "title": "Earthing System",
+              "start_index": 4,
+              "end_index": 4,
+              "node_id": "0031",
+              "summary": "The document outlines key electrical and safety requirements for a station, including the installation of main low\u2011tension distribution panels, compliance of all cabling with Indian standards, LED platform lighting, automatic emergency lighting, a complete earthing system, and lightning arrestors. It also specifies payment terms, allowing a 10\u202f% advance upon submission of a bank guarantee."
+            },
+            {
+              "title": "Lightning Protection",
+              "start_index": 4,
+              "end_index": 4,
+              "node_id": "0032",
+              "summary": "The partial document outlines key electrical and safety requirements for a station project. It specifies that the contractor must supply and install main low\u2011tension distribution panels in designated electrical rooms, and that all cabling must meet Indian Standards and metro safety regulations. Station lighting provisions include LED fixtures along passenger platforms and automatic emergency lighting that activates during power failures. Earthing and lightning protection are addressed, requiring a complete earthing system and installation of lightning arrestors per safety standards. Finally, the document sets payment terms, allowing a 10% advance payment upon submission of a bank guarantee."
+            }
+          ],
+          "node_id": "0030",
+          "summary": "The partial document outlines key electrical and safety requirements for a station project, covering the supply and installation of main low\u2011tension distribution panels, compliance of all cabling with Indian standards and metro safety regulations, and the installation of platform LED lighting and automatic emergency lighting. It also specifies the need for a comprehensive earthing system and lightning arrestors in line with safety standards. Finally, it includes payment terms, noting a 10% advance payment contingent on a bank guarantee."
+        }
+      ],
+      "node_id": "0023",
+      "summary": "The document outlines the eligibility and scope for a metro rail electrical infrastructure contract. It specifies financial qualifications, requiring bidders to have a minimum annual turnover of INR\u202f100\u202fcrore over the last three years, a positive net worth for the previous year, and submission of audited financial statements. Technical qualifications demand at least two completed similar projects of INR\u202f30\u202fcrore each within the past seven years, and a team of qualified engineers in electrical, power systems, and safety compliance. The scope of work covers installation of main low\u2011tension distribution panels, compliant cabling, LED platform lighting, automatic emergency lighting, and comprehensive earthing and lightning protection systems. Payment terms allow a 10\u202f% advance upon bank guarantee."
+    },
+    {
+      "title": "Payment Terms",
+      "start_index": 4,
+      "end_index": 4,
+      "nodes": [
+        {
+          "title": "Advance Payment",
+          "start_index": 4,
+          "end_index": 5,
+          "node_id": "0034",
+          "summary": "The partial document outlines the electrical and project management requirements for a metro station construction contract. Key points include:\n\n- **Electrical Power Distribution (Section\u202f4.1)**: Installation of main low\u2011tension distribution panels in designated station rooms, compliance with Indian standards for cabling, and safety regulations.\n- **Station Lighting Systems (Section\u202f4.2)**: Placement of LED fixtures along passenger platforms and automatic activation of emergency lighting during power failures.\n- **Earthing and Lightning Protection (Section\u202f4.3)**: Mandatory installation of a comprehensive earthing system and lightning arrestors per safety standards.\n- **Payment Terms (Section\u202f5)**: Advance payment of 10\u202f% upon bank guarantee, milestone\u2011based interim payments tied to project milestones and invoicing with progress reports, and final payment after successful commissioning and acceptance.\n- **Project Timeline (Section\u202f6)**: An 18\u2011month contract duration with equipment installation to be finished within the first 12\u202fmonths and testing/commissioning completed in the remaining 6\u202fmonths.\n- **Penalties and Liquidated Damages (Section\u202f7)**: Provision for delay penalties, with a specified delay rate (details truncated)."
+        },
+        {
+          "title": "Interim Payments",
+          "start_index": 5,
+          "end_index": 5,
+          "nodes": [
+            {
+              "title": "Milestone-Based Payments",
+              "start_index": 5,
+              "end_index": 5,
+              "node_id": "0036",
+              "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies a milestone\u2011based payment schedule, requiring contractors to submit invoices with progress reports and inspection approvals, and a final payment upon successful commissioning and acceptance of all systems. The project timeline is set at 18\u202fmonths from contract award, with key milestones: equipment installation to be completed within the first 12\u202fmonths and testing/commissioning within the remaining 6\u202fmonths. It also introduces penalties for delays, including a defined delay rate."
+            },
+            {
+              "title": "Invoice Submission",
+              "start_index": 5,
+              "end_index": 5,
+              "node_id": "0037",
+              "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies that interim payments will be milestone\u2011based, with contractors required to submit invoices together with progress reports and inspection approvals. Final payment is contingent on successful commissioning and acceptance of all electrical systems. The project timeline is set at 18\u202fmonths from contract award, with equipment installation to be completed within the first 12\u202fmonths and testing/commissioning within the remaining 6\u202fmonths. It also introduces penalties and liquidated damages for delays, including a defined delay rate."
+            }
+          ],
+          "node_id": "0035",
+          "summary": "The partial document outlines the financial and scheduling framework for a project: it specifies milestone\u2011based payments, the requirement for contractors to submit invoices with progress reports and inspection approvals, and the conditions for final payment after commissioning and acceptance of all electrical systems. It also details the overall project timeline, including an 18\u2011month contract duration, key completion milestones for equipment installation (within the first 12 months) and testing/commissioning (within the remaining 6 months). Finally, it introduces penalties and liquidated damages, particularly a delay penalty rate."
+        },
+        {
+          "title": "Final Payment",
+          "start_index": 5,
+          "end_index": 5,
+          "node_id": "0038",
+          "summary": "The document outlines the payment structure and project schedule for an electrical systems contract. It specifies milestone\u2011based payments tied to defined project milestones, requiring contractors to submit invoices with progress reports and inspection approvals. Final payment is contingent on successful commissioning and acceptance of all electrical systems. The project timeline sets an 18\u2011month contract duration, with equipment installation to be completed within the first 12 months and testing/commissioning within the remaining 6 months. Penalties and liquidated damages provisions are introduced, including a delay penalty rate."
+        }
+      ],
+      "node_id": "0033",
+      "summary": "The partial document outlines key electrical and safety requirements for a station project. It specifies that the contractor must supply and install main low\u2011tension distribution panels in designated electrical rooms, and that all cabling must meet Indian Standards and metro safety regulations. Station lighting provisions include LED fixtures along passenger platforms and automatic emergency lighting that activates during power failures. Earthing and lightning protection are addressed, requiring a complete earthing system and installation of lightning arrestors per safety standards. Finally, the document sets payment terms, allowing a 10% advance payment upon submission of a bank guarantee."
+    },
+    {
+      "title": "Project Timeline",
+      "start_index": 5,
+      "end_index": 5,
+      "nodes": [
+        {
+          "title": "Contract Duration",
+          "start_index": 5,
+          "end_index": 5,
+          "node_id": "0040",
+          "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies that payments will be milestone\u2011based, with contractors required to submit invoices together with progress reports and inspection approvals. Final payment is contingent on successful commissioning and acceptance of all electrical systems. The project timeline is set at 18\u202fmonths from contract award, with equipment installation to be completed within the first 12\u202fmonths and testing/commissioning within the remaining 6\u202fmonths. It also introduces penalties for delays, including a defined delay rate."
+        },
+        {
+          "title": "Completion Milestones",
+          "start_index": 5,
+          "end_index": 5,
+          "nodes": [
+            {
+              "title": "Equipment Installation",
+              "start_index": 5,
+              "end_index": 5,
+              "node_id": "0042",
+              "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies that payments will be milestone\u2011based, with contractors required to submit invoices together with progress reports and inspection approvals. Final payment is contingent on successful commissioning and acceptance of all electrical systems. The project is scheduled for an 18\u2011month duration, with equipment installation to be completed within the first 12 months and testing/commissioning within the remaining 6 months. It also introduces penalties for delays, including a defined delay rate."
+            },
+            {
+              "title": "Testing and Commissioning",
+              "start_index": 5,
+              "end_index": 5,
+              "node_id": "0043",
+              "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies that payments will be milestone\u2011based, with contractors required to submit invoices together with progress reports and inspection approvals. Final payment is contingent on successful commissioning and acceptance of all electrical systems. The project is scheduled for an 18\u2011month duration, with equipment installation to be completed within the first 12 months and testing/commissioning within the remaining 6 months. It also introduces penalties for delays, including a defined delay rate."
+            }
+          ],
+          "node_id": "0041",
+          "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies that payments will be milestone\u2011based, with contractors required to submit invoices together with progress reports and inspection approvals. A final payment is contingent on successful commissioning and acceptance of all electrical systems. The project is scheduled for an 18\u2011month contract duration, with equipment installation to be completed within the first 12 months and testing/commissioning within the remaining 6 months. It also introduces penalties for delays, including a defined delay rate."
+        }
+      ],
+      "node_id": "0039",
+      "summary": "The document outlines a milestone\u2011based payment schedule, requiring contractors to submit invoices with progress reports and inspection approvals. Final payment is contingent on successful commissioning of all electrical systems. It specifies an 18\u2011month contract duration, with equipment installation to be completed within the first 12 months and testing/commissioning in the remaining 6 months. Penalties for delays are addressed, including a delay penalty rate."
+    },
+    {
+      "title": "Penalties and Liquidated Damages",
+      "start_index": 5,
+      "end_index": 5,
+      "nodes": [
+        {
+          "title": "Delay Penalty",
+          "start_index": 5,
+          "end_index": 6,
+          "nodes": [
+            {
+              "title": "Delay Rate",
+              "start_index": 6,
+              "end_index": 6,
+              "node_id": "0046",
+              "summary": "The document outlines a penalty structure for project delays, specifying a weekly penalty of 0.5\u202f% of the contract value and a maximum cap of 10\u202f% of the total contract value. It also provides contact information for the tender process, noting that tender documents are issued by the procurement department of Bangalore Metro Rail Corporation Limited and that all communication should be directed to the official BMRCL procurement office in Bengaluru."
+            },
+            {
+              "title": "Maximum Penalty",
+              "start_index": 6,
+              "end_index": 6,
+              "node_id": "0047",
+              "summary": "The excerpt outlines the penalty regime for project delays\u2014specifying a 0.5\u202f% weekly penalty on contract value, capped at a maximum of 10\u202f% of the total contract value\u2014and provides contact details for tender issuance and communication, indicating that tender documents are issued by the procurement department of Bangalore Metro Rail Corporation Limited and all correspondence should be directed to the official BMRCL procurement office in Bengaluru."
+            }
+          ],
+          "node_id": "0045",
+          "summary": "The document outlines the payment structure, project timeline, penalties, and contact details for a Bangalore Metro Rail Corporation Limited (BMRCL) electrical systems contract. It specifies milestone\u2011based interim payments tied to defined project milestones, requires contractors to submit invoices with progress reports and inspection approvals, and states that the final payment will be released after successful commissioning and acceptance of all electrical systems. The project duration is 18 months, with equipment installation to be completed within the first 12 months and testing/commissioning within the remaining 6 months. Delay penalties are set at 0.5% of contract value per week, capped at 10% of the total contract value. Contact information directs all tender-related communication to the BMRCL procurement office in Bengaluru."
+        }
+      ],
+      "node_id": "0044",
+      "summary": "The partial document outlines the financial and scheduling framework for an electrical systems project. It specifies that payments will be milestone\u2011based, with contractors required to submit invoices together with progress reports and inspection approvals. Final payment is contingent on successful commissioning and acceptance of all electrical systems. The project is scheduled for an 18\u2011month duration, with equipment installation to be completed within the first 12 months and testing/commissioning within the remaining 6 months. It also introduces penalties for delays, including a defined delay rate."
+    },
+    {
+      "title": "Contact Information",
+      "start_index": 6,
+      "end_index": 6,
+      "nodes": [
+        {
+          "title": "Tender Issuing Authority",
+          "start_index": 6,
+          "end_index": 6,
+          "node_id": "0049",
+          "summary": "The excerpt outlines the penalty regime for project delays\u2014specifying a 0.5\u202f% weekly penalty on contract value, capped at a maximum of 10\u202f% of the total contract value\u2014and provides contact details for tender issuance and communication, indicating that tender documents are issued by the procurement department of Bangalore Metro Rail Corporation Limited and all correspondence should be directed to the official BMRCL procurement office in Bengaluru."
+        },
+        {
+          "title": "Communication",
+          "start_index": 6,
+          "end_index": 6,
+          "node_id": "0050",
+          "summary": "The excerpt outlines the penalty regime for project delays\u2014specifying a 0.5\u202f% weekly penalty on contract value, capped at a maximum of 10\u202f% of the total contract value\u2014and provides contact details for tender issuance and communication, indicating that tender documents are issued by the procurement department of Bangalore Metro Rail Corporation Limited and all correspondence should be directed to the official BMRCL procurement office in Bengaluru."
+        }
+      ],
+      "node_id": "0048",
+      "summary": "The excerpt outlines the penalty regime for contract delays\u2014specifying a 0.5\u202f% weekly penalty and a cap of 10\u202f% of the total contract value\u2014followed by contact details for tender issuance and communication, indicating that tender documents are issued by BMRCL\u2019s procurement department in Bangalore and all correspondence should be directed to the official BMRCL procurement office."
+    }
+  ]
+}

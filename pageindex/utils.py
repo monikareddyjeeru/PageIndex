@@ -18,17 +18,33 @@ from pathlib import Path
 from types import SimpleNamespace as config
 
 CHATGPT_API_KEY = os.getenv("CHATGPT_API_KEY")
+# MODEL=os.getenv("OPENROUTER_MODEL")
+API_KEY=os.getenv("API_KEY")
+# def count_tokens(text, model=None):
+#     clean_model = model.split('/')[-1] if '/' in model else model
+#     if not text:
+#         return 0
+#     enc = tiktoken.encoding_for_model(clean_model)
+#     tokens = enc.encode(text)
+#     return len(tokens)
 
-def count_tokens(text, model=None):
-    if not text:
-        return 0
-    enc = tiktoken.encoding_for_model(model)
-    tokens = enc.encode(text)
-    return len(tokens)
+
+def count_tokens(text, model):
+    try:
+        enc = tiktoken.encoding_for_model(model)
+    except KeyError:
+        enc = tiktoken.get_encoding("cl100k_base")
+
+    return len(enc.encode(text))
 
 def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
     max_retries = 10
-    client = openai.OpenAI(api_key=api_key)
+    # client = openai.OpenAI(api_key=api_key)
+    client = openai.OpenAI(
+        base_url="https://openrouter.ai/api/v1", 
+        api_key=os.getenv("CHATGPT_API_KEY")
+        # api_key=api_key
+    )
     for i in range(max_retries):
         try:
             if chat_history:
@@ -41,6 +57,12 @@ def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_
                 model=model,
                 messages=messages,
                 temperature=0,
+                # reasoning={"enabled":False}
+                extra_body={
+                    "reasoning": {
+                        "effort": "none"
+                    }
+                }
             )
             if response.choices[0].finish_reason == "length":
                 return response.choices[0].message.content, "max_output_reached"
@@ -60,7 +82,12 @@ def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_
 
 def ChatGPT_API(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
     max_retries = 10
-    client = openai.OpenAI(api_key=api_key)
+    # client = openai.OpenAI(api_key=api_key)
+    client = openai.OpenAI(
+        base_url="https://openrouter.ai/api/v1", 
+        api_key=os.getenv("CHATGPT_API_KEY")
+        # api_key=api_key
+    )
     for i in range(max_retries):
         try:
             if chat_history:
@@ -73,6 +100,12 @@ def ChatGPT_API(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
                 model=model,
                 messages=messages,
                 temperature=0,
+                extra_body={
+                    "reasoning": {
+                        "effort": "none"
+                    }
+                }
+                # reasoning={"enabled":False}
             )
    
             return response.choices[0].message.content
@@ -91,11 +124,18 @@ async def ChatGPT_API_async(model, prompt, api_key=CHATGPT_API_KEY):
     messages = [{"role": "user", "content": prompt}]
     for i in range(max_retries):
         try:
-            async with openai.AsyncOpenAI(api_key=api_key) as client:
+            async with openai.AsyncOpenAI(
+                base_url="https://openrouter.ai/api/v1",
+                api_key=api_key) as client:
                 response = await client.chat.completions.create(
                     model=model,
                     messages=messages,
                     temperature=0,
+                    extra_body={
+                        "reasoning": {
+                            "effort": "none"
+                        }
+                    }
                 )
                 return response.choices[0].message.content
         except Exception as e:
@@ -534,6 +574,7 @@ def check_token_limit(structure, limit=110000):
     list = structure_to_list(structure)
     for node in list:
         num_tokens = count_tokens(node['text'], model='gpt-4o')
+        # num_tokens = count_tokens(node['text'], model=MODEL)
         if num_tokens > limit:
             print(f"Node ID: {node['node_id']} has {num_tokens} tokens")
             print("Start Index:", node['start_index'])
