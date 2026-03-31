@@ -1,21 +1,36 @@
 import json
 import asyncio
 import openai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # --- Configuration ---
-OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
-MODEL = "gpt-4.1"  # as used in the official cookbook
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+MODEL = os.getenv("OPENROUTER_MODEL", "gpt-4o-mini") # as used in the official cookbook
 
 
 # --- Step 1: LLM helper ---
 async def call_llm(prompt, model=MODEL):
-    client = openai.AsyncOpenAI(api_key=OPENAI_API_KEY)
+    client = openai.AsyncOpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=OPENAI_API_KEY
+    )
     response = await client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )
-    return response.choices[0].message.content.strip()
+    
+    message = response.choices[0].message
+    if message.content is None:
+        print("\n--- ERROR: message.content is None ---")
+        print(response.model_dump_json(indent=2))
+        print("--------------------------------------\n")
+        return "{}" # Return empty JSON to prevent immediate crash in json.loads
+        
+    return message.content.strip()
 
 
 # --- Step 2: Build flat node map from tree JSON ---
@@ -48,15 +63,20 @@ Reply ONLY in this JSON format:
   "node_list": ["0001", "0002"]
 }}"""
     response = await call_llm(prompt)
-    return json.loads(response)
+    try:
+        return json.loads(response)
+    except Exception as e:
+        print(f"Warning: Failed to parse LLM response as JSON. Error: {e}")
+        return {}
 
 
 # --- Step 4: Extract text from identified nodes ---
 def extract_context(node_list, node_map):
     context = ""
     for node_id in node_list:
-        if node_id in node_map and "text" in node_map[node_id]:
-            context += node_map[node_id]["text"] + "\n\n"
+        if node_id in node_map and "summary" in node_map[node_id]:
+            context += f"[{node_map[node_id].get('title', 'Section')}]\n"
+            context += node_map[node_id]["summary"] + "\n\n"
     return context.strip()
 
 
@@ -82,11 +102,15 @@ async def query(question, tree_path):
 
     # Step 1: Tree search
     search_result = await tree_search(question, tree)
-    print("Relevant nodes:", search_result["node_list"])
-    print("Reasoning:", search_result["thinking"])
+    
+    node_list = search_result.get("node_list", [])
+    thinking = search_result.get("thinking", "LLM did not provide reasoning.")
+    
+    print("Relevant nodes:", node_list)
+    print("Reasoning:", thinking[:500] + "..." if len(thinking) > 500 else thinking)
 
     # Step 2: Extract context
-    context = extract_context(search_result["node_list"], node_map)
+    context = extract_context(node_list, node_map)
 
     # Step 3: Answer
     answer = await answer_question(question, context)
@@ -97,6 +121,18 @@ async def query(question, tree_path):
 # --- Run ---
 if __name__ == "__main__":
     asyncio.run(query(
-        question="What are the main conclusions?",
-        tree_path="results/your_document_structure.json"
+        question="What documents are mandatory for bidders to submit?",
+        tree_path="results/Tender Doc for Testing_structure.json"
     ))
+
+# Questions
+# What is the name of the organization issuing this tender?
+# What is the main objective of this tender?
+# What type of systems is the contractor required to handle?
+# What are the key components included in the electrical infrastructure? (list any four)
+# Where will the project be executed?
+# What is the required Earnest Money Deposit (EMD) amount?
+# What are the acceptable forms of submitting the EMD?
+# What is the minimum annual turnover required for bidders?
+# How many similar projects must the bidder have completed, and within what time period?
+# What is the total duration of the project?
